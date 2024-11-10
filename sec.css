@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    background-color: white; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+
+/* part 1 ----------------------------------------------------------------*/
+hr {
+  border: none;
+  border-top: 2px solid #333; /* Top line */
+  border-bottom: 2px solid #333; /* Bottom line */
+  height: 0;                  /* No internal height */
+  margin: 20px 0;  }
+
+.headline-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  margin: 1px; /* Adds some space from the top of the page */
+  width: 100%;
+
+}
+
+.date {
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+.headline {
+  font-family: 'Times New Roman', serif;
+  font-size: 76px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+
+
+/* part 1 ----------------------------------------------------------------*/
+
+
+
+
+
+
+/* part 2 =================================================================*/
+.birthday-article {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  height: 80%;
+  
+  
+}
+
+.text-wrap-container {
+  width: 100%;                   /* Full width */
+  padding: 20px;
+  box-sizing: border-box;         /* Includes padding in total width */
+  font-family: Arial, sans-serif;
+}
+
+.text-wrap-container img {
+  float: left;                    /* Floats image to the left */
+  margin-right: 15px;             /* Space between image and text */
+  width: 30%;                     /* Image takes 30% of the container width */
+  height: auto;                   /* Maintains aspect ratio */
+  border-radius: 8px;             /* Optional: rounded corners */
+}
+
+.text-wrap-container p {
+  line-height: 1.6;               /* Adds spacing for text readability */
+}
+
+/* Clearfix for containing floated elements */
+.text-wrap-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.text-wrap-cal {
+  width: 100%;                   /* Full width */
+  padding: 20px;
+  box-sizing: border-box;         /* Includes padding in total width */
+  font-family: Arial, sans-serif;
+}
+
+.text-wrap-cal img {
+  float: right;                    /* Floats image to the left */
+  margin-right: 15px;             /* Space between image and text */
+  width: 30%;                     /* Image takes 30% of the container width */
+  height: auto;                   /* Maintains aspect ratio */
+  border-radius: 8px;             /* Optional: rounded corners */
+  
+}
+
+.text-wrap-cal p {
+  line-height: 1.6;               /* Adds spacing for text readability */
+}
+
+/* Clearfix for containing floated elements */
+.text-wrap-cal::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  blockquote {
+    border-left: 4px solid #ffab73;
+    padding-left: 15px;
+    color: #555;
+    font-style: italic;
+    background-color: #ffeadf;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.1em;
+  }
+
+/* part 2 =================================================================*/
+
+
+
+
+
+
+/* part 3 =================================================================*/
+ 
+
+  .buttons {
+    display: flex;
+    justify-content: space-between; /* Places links at far left and right */
+    align-items: center; /* Centers links vertically */
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+}
+
+/* Optional: Add hover effect */
+.buttons a:hover {
+    color: #007bff;
+}
+/* part 3 =================================================================*/
